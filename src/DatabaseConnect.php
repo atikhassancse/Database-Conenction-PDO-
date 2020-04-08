@@ -65,4 +65,8 @@ class DatabaseConnect
 }
 
 
-$con = new DatabaseConnect();
+$db = new DatabaseConnect();
+
+$con = $db->con;
+
+
